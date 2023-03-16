@@ -72,7 +72,7 @@
 
     const/4 v1, 0x1
 
-    if-eqz v0, :cond_0
+    goto :cond_0
 
     .line 19
     iget-object v0, p0, Lowasp/sat/agoat/EmulatorDetectionActivity$onCreate$1;->this$0:Lowasp/sat/agoat/EmulatorDetectionActivity;
@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    const-string v2, "This is Emulator"
+    const-string v2, "You could pass!"
 
     check-cast v2, Ljava/lang/CharSequence;
 
