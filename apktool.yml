@@ -1,0 +1,29 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: AndroGoat.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+- res/drawable/logo.png
+- res/drawable/phone.png
+- res/drawable-v24/phone.png
+- res/drawable-v24/logo.png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '18'
+  targetSdkVersion: '26'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  publicsuffixes.gz: '0'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.7.0
+versionInfo:
+  versionCode: '1'
+  versionName: '1.0'
